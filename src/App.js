@@ -1,9 +1,11 @@
-import LoginView from "./components/Login/Login";
+import Sidebar from "./layouts/Sidebar/Sidebar";
+// import Login from "./pages/Login/Login";
 
 function App() {
   return (
     <div className="App">
-      <LoginView/>
+      {/* <Login /> */}
+      <Sidebar />
     </div>
   );
 }
