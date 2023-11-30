@@ -1,11 +1,11 @@
-import Sidebar from "./layouts/Sidebar/Sidebar";
 // import Login from "./pages/Login/Login";
+
+import DashboardLayout from "./layouts/DashboardLayout";
 
 function App() {
   return (
     <div className="App">
-      {/* <Login /> */}
-      <Sidebar />
+      <DashboardLayout/>
     </div>
   );
 }
